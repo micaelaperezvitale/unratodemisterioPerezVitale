@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 /*Anidamiento*/
 /*Body*/
 body {
@@ -69,6 +70,7 @@ h4 {
 header .logo {
   width: 60px;
 }
+
 header .container-fluid {
   justify-content: center;
 }
@@ -81,9 +83,11 @@ header .container-fluid {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 .contenedor .banner {
   width: 95%;
 }
+
 .contenedor .centrado {
   position: absolute;
   top: 70%;
@@ -91,6 +95,7 @@ header .container-fluid {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .contenedor .centrado .welcome-text {
   color: white;
   font-family: "PT Serif", serif;
@@ -104,6 +109,7 @@ header .container-fluid {
   text-decoration: none;
   letter-spacing: normal;
 }
+
 .contenedor .centrado .button {
   text-decoration: none;
   border-radius: 10px;
@@ -115,9 +121,11 @@ header .container-fluid {
   width: 50%;
   margin-left: 170px;
 }
+
 .contenedor .centrado .button:hover {
   transform: scale(110%);
 }
+
 .contenedor .centrado .button a {
   text-decoration: none;
   border-radius: 10px;
@@ -130,19 +138,22 @@ header .container-fluid {
 
 /*Episodios destacados*/
 .container-fluid-section {
-  
+
   margin-top: 15px;
 }
+
 .container-fluid-section .card {
   text-align: center;
   line-height: normal;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .container-fluid-section .card .card-text {
   font-size: medium;
   text-align: justify;
 }
+
 .container-fluid-section .card .btn {
   text-align: center;
   background-color: rgb(80, 3, 7);
@@ -154,25 +165,31 @@ header .container-fluid {
   background-color: #1d1d1d;
   margin-top: 15px;
 }
+
 .rrss .rrss-titulo {
   display: flex;
   justify-content: center;
 }
+
 .rrss .rrss-padre .card-rrss {
   text-align: center;
   line-height: normal;
 }
+
 .rrss .rrss-padre .card-rrss .logos {
   width: 100px;
   margin: 20px 20px 20px 20px;
   position: absolute;
 }
+
 .rrss .rrss-padre .card-rrss .logos:hover {
   display: none;
 }
+
 .rrss .rrss-padre .card-rrss .logos:hover .logos-hover {
   display: block;
 }
+
 .rrss .rrss-padre .card-rrss .logos-hover {
   width: 100px;
   margin: 20px 20px 20px 20px;
@@ -197,38 +214,40 @@ header .container-fluid {
   margin-bottom: 20px;
 }
 
-.text-center-autora{
+.text-center-autora {
   font-family: "PT Serif", serif;
   font-style: normal;
   font-weight: normal;
   color: white;
   text-align: center;
 }
+
 .container .image-autora {
   width: 400px;
   padding: 20px;
 }
 
 @media only screen and (max-width:800px) {
-  .titulo-episodios{
+  .titulo-episodios {
     font-size: xx-large;
   }
 
-  .welcome-text{
+  .welcome-text {
     display: none;
   }
 
-  .button{
+  .button {
     padding: 0 !important;
-  margin-left: 0 !important;
-  font-size: small;
-  width: 100% !important;
+    margin-left: 0 !important;
+    font-size: small;
+    width: 100% !important;
   }
 
-  .rrss-padre{
+  .rrss-padre {
     max-width: 100% !important;
   }
-  .image-autora{
+
+  .image-autora {
     max-width: 100%;
   }
 }

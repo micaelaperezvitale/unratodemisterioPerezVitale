@@ -5,8 +5,7 @@
 /*Body*/
 body {
     background-image: url("/background-1.jpg") !important;
-    background: url("/background-1.jpg")
-    background-position: top;
+    background: url("/background-1.jpg") background-position: top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -112,9 +111,7 @@ header {
         }
 
         .button {
-            @include boton
-
-            &:hover {
+            @include boton &:hover {
                 transform: scale(110%)
             }
 
@@ -149,8 +146,8 @@ header {
 
         .btn {
             text-align: center;
-            
-            
+
+
         }
     }
 }
@@ -178,7 +175,7 @@ header {
                 &:hover {
 
                     display: none;
-                 
+
                     .logos-hover {
                         display: block;
 
