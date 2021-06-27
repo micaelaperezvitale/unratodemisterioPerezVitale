@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/*Anidamiento*/
+/*Body*/
+body {
+  background-image: url("background-1.jpg") !important;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+/*Títulos*/
+p {
+  color: white;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+h2 {
+  color: white;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70;
+  text-align: left;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+h3 {
+  color: white;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: center;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: normal;
+  padding: 15px;
+}
+
+h4 {
+  color: white;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  text-align: left;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+
+/*Nav Bar*/
+/*Header*/
+header .logo {
+  width: 60px;
+}
+header .container-fluid {
+  justify-content: center;
+}
+
+/*Banner*/
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contenedor .banner {
+  width: 95%;
+}
+.contenedor .centrado {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.contenedor .centrado .welcome-text {
+  color: white;
+  font-family: "PT Serif", serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: center;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: normal;
+}
+.contenedor .centrado .button {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 22px;
+  background-color: rgb(80, 3, 7);
+  color: white;
+  transition-property: all;
+  transition-duration: 2s;
+  width: 50%;
+  margin-left: 170px;
+}
+.contenedor .centrado .button:hover {
+  transform: scale(110%);
+}
+.contenedor .centrado .button a {
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 10px 22px;
+  background-color: rgb(80, 3, 7);
+  color: white;
+  transition-property: all;
+  transition-duration: 2s;
+}
+
+/*Episodios destacados*/
+.container-fluid-section {
+  
+  margin-top: 15px;
+}
+.container-fluid-section .card {
+  text-align: center;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-fluid-section .card .card-text {
+  font-size: medium;
+  text-align: justify;
+}
+.container-fluid-section .card .btn {
+  text-align: center;
+  background-color: rgb(80, 3, 7);
+  border-color: rgb(80, 3, 7);
+}
+
+/*Footer*/
+.rrss {
+  background-color: #1d1d1d;
+  margin-top: 15px;
+}
+.rrss .rrss-titulo {
+  display: flex;
+  justify-content: center;
+}
+.rrss .rrss-padre .card-rrss {
+  text-align: center;
+  line-height: normal;
+}
+.rrss .rrss-padre .card-rrss .logos {
+  width: 100px;
+  margin: 20px 20px 20px 20px;
+  position: absolute;
+}
+.rrss .rrss-padre .card-rrss .logos:hover {
+  display: none;
+}
+.rrss .rrss-padre .card-rrss .logos:hover .logos-hover {
+  display: block;
+}
+.rrss .rrss-padre .card-rrss .logos-hover {
+  width: 100px;
+  margin: 20px 20px 20px 20px;
+}
+
+/*Episodios*/
+.titulo-episodios {
+  background-color: #500307;
+  text-align: center;
+  padding: 50px;
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  font-size: 90px;
+}
+
+/*Sobre nosotros*/
+.container {
+  background-color: #1d1d1d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.text-center-autora{
+  font-family: "PT Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  text-align: center;
+}
+.container .image-autora {
+  width: 400px;
+  padding: 20px;
+}
+
+@media only screen and (max-width:800px) {
+  .titulo-episodios{
+    font-size: xx-large;
+  }
+
+  .welcome-text{
+    display: none;
+  }
+
+  .button{
+    padding: 0 !important;
+  margin-left: 0 !important;
+  font-size: small;
+  width: 100% !important;
+  }
+
+  .rrss-padre{
+    max-width: 100% !important;
+  }
+  .image-autora{
+    max-width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,216 @@
+@import url(/scss/_mapas.scss);
+@import url(/scss/_mixin.scss);
+
+/*Anidamiento*/
+/*Body*/
+body {
+    background-image: url("/background-1.jpg") !important;
+    background: url("/background-1.jpg")
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Títulos*/
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+    padding: 15px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+/*Nav Bar*/
+
+
+/*Header*/
+header {
+    .logo {
+        width: 60px;
+    }
+
+    .container-fluid {
+        justify-content: center;
+    }
+}
+
+/*Banner*/
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .banner {
+        width: 95%;
+    }
+
+    .centrado {
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        .welcome-text {
+            color: rgb(255, 255, 255);
+            font-family: 'PT Serif', serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            text-align: center;
+            text-transform: none;
+            line-height: normal;
+            text-decoration: none;
+            letter-spacing: normal;
+        }
+
+        .button {
+            @include boton
+
+            &:hover {
+                transform: scale(110%)
+            }
+
+            a {
+                text-decoration: none;
+                border-radius: 10px;
+                padding: 10px 22px;
+                background-color: rgb(80, 3, 7);
+                color: white;
+                transition-property: all;
+                transition-duration: 2s;
+            }
+        }
+    }
+}
+
+
+/*Episodios destacados*/
+.container-fluid-section {
+    background-color: rgb(29, 29, 29);
+    margin-top: 15px;
+
+    .card {
+        text-align: center;
+        line-height: normal;
+        margin-top: 20px;
+
+        .card-text {
+            font-size: medium;
+            text-align: justify;
+        }
+
+        .btn {
+            text-align: center;
+            
+            
+        }
+    }
+}
+
+/*Footer*/
+.rrss {
+    background-color: rgb(29, 29, 29);
+    margin-top: 15px;
+
+    .rrss-titulo {
+        display: flex;
+        justify-content: center;
+    }
+
+    .rrss-padre {
+        .card-rrss {
+            text-align: center;
+            line-height: normal;
+
+            .logos {
+                width: 100px;
+                margin: 20px 20px 20px 20px;
+                position: absolute;
+
+                &:hover {
+
+                    display: none;
+                 
+                    .logos-hover {
+                        display: block;
+
+                    }
+                }
+            }
+
+            .logos-hover {
+                width: 100px;
+                margin: 20px 20px 20px 20px;
+
+            }
+        }
+    }
+}
+
+/*Episodios*/
+.titulo-episodios {
+    background-color: rgb(80, 3, 7);
+    text-align: center;
+    padding: 50px;
+
+}
+
+/*Sobre nosotros*/
+.container {
+    background-color: rgb(29, 29, 29);
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .image-autora {
+        width: 400px;
+        padding: 20px;
+    }
+}

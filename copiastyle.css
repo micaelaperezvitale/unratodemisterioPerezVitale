@@ -1,0 +1,257 @@
+/*CSS de index.html*/
+
+body {
+    background-image: url("images/background-1.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*Header*/
+.logo {
+    width: 80px;
+    margin: 15px 15px 15px 15px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.lista {
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+    padding-right: inherit;
+    list-style: none;
+    list-style-position: initial;
+    list-style-type: none;
+    color: white;
+
+}
+
+.list-item {
+    margin: 0px 15px;
+}
+
+/*Banner de presentación*/
+.contenedor {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.centrado {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button:hover {
+    transform: scale(110%);
+}
+
+/*Headings y texto*/
+h3 {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+    padding: 15px;
+}
+
+h4 {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+.welcome-text {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    text-decoration: none;
+    letter-spacing: normal;
+}
+
+.rrss{
+    background-color: rgb(29, 29, 29);
+    margin-top: 15px;
+}
+
+.rrss-titulo {
+    display: flex;
+    justify-content: center;
+}
+
+/* .rrss-padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
+
+.card-rrss {
+    text-align: center;
+    line-height: normal;
+}
+
+.p-rrss {
+    font-size: 17px;
+}
+
+.card {
+    text-align: center;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.episodes {
+    width: 500px;
+    margin: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: rgb(37, 0, 0);
+}
+
+/*Sección Redes Sociales*/
+.logos {
+    width: 100px;
+    margin: 20px 20px 20px 20px;
+}
+
+/*Sección autora*/
+.autora {
+    width: 300px;
+}
+
+/*Sección episodios*/
+.container-fluid-section {
+    background-color: rgb(29, 29, 29);
+    margin-top: 15px;
+}
+
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+.subnav-content {
+    display: none;
+}
+
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.subnav .subnavbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+    background-color: rgb(13, 19, 19);
+}
+
+.titulos-episodios {
+    text-align: center;
+}
+
+
+/*Sobre la autora*/
+.image-autora {
+    width: 400px;
+    margin: 15px;
+}
+
+.carousel{
+    margin-top: 55px;
+}
+
+/*Mobile*/
+@media only screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .banner {
+        width: 100%
+    }
+
+    .centrado {
+        display: none;
+    }
+
+    /* .card-rrss{
+        width: 30px;
+    } */
+}

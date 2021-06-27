@@ -1,0 +1,11 @@
+@mixin boton {
+    text-decoration: none;
+            border-radius: 10px;
+            padding: 10px 22px;
+            background-color: rgb(80, 3, 7);
+            color: white;
+            transition-property: all;
+            transition-duration: 2s;
+            width: 50%;
+            margin-left: 170px;
+}
