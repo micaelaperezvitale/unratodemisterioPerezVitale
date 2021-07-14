@@ -227,10 +227,11 @@ header .container-fluid {
   padding: 20px;
 }
 
-.centrado{
+.centrado {
   text-align: center;
 }
-.image-recomended{
+
+.image-recomended {
   width: 1100px;
   text-align: center;
 
@@ -260,7 +261,7 @@ header .container-fluid {
     max-width: 100%;
   }
 
-  .image-recomended{
+  .image-recomended {
     max-width: 100%;
   }
 }
